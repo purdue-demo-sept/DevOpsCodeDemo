@@ -5,7 +5,7 @@ on:
       - master
 jobs:
   BuildJob:
-   runs-on: ubuntu:latest
+   runs-on: ubuntu-latest
    steps:
     - name: Clone the repo 
       uses: actions/checkout@v4
